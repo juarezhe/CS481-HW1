@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HW1_HannahJuarez</string>
+    <string name="name">Name: Hannah Juarez</string>
+    <string name="department">Department: Computer Science</string>
+    <string name="year">Year: Senior</string>
+    <string name="switch_button">Switch</string>
+    <string name="to_grade_activity_button">Grade</string>
+    <string name="to_favorite_activity_button">Favorite</string>
+
+    <string name="grade_text">Please enter a grade:</string>
+    <string name="grade_input_hint">100</string>
+    <string name="show_grade_button">Show Grade</string>
+
+    <string name="favorite_fruit_radio">Fruit</string>
+    <string name="favorite_flower_radio">Flower</string>
+
+    <string-array name="fruit_array">
+        <item></item>
+        <item>Kiwi</item>
+        <item>Strawberry</item>
+        <item>Blueberry</item>
+        <item>Cherry</item>
+        <item>Lemon</item>
+    </string-array>
+
+    <string-array name="flower_array">
+        <item></item>
+        <item>Camellia</item>
+        <item>Hellebore</item>
+        <item>Jasmine</item>
+        <item>Honeysuckle</item>
+        <item>Peace Lily</item>
+    </string-array>
+
+</resources>
