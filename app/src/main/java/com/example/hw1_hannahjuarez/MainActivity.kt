@@ -10,8 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val toGradeActivity = Intent(this, GradeActivity::class.java)
-        val toFavoriteActivity = Intent(this, FavoriteActivity::class.java)
         var isPFP = true
         findViewById<Button>(R.id.switch_button).setOnClickListener {
             if (isPFP) {
@@ -23,10 +21,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
         findViewById<Button>(R.id.to_grade_activity_button).setOnClickListener {
-            startActivity(toGradeActivity)
+            startActivity(
+                Intent(this, GradeActivity::class.java)
+            )
         }
         findViewById<Button>(R.id.to_favorite_activity_button).setOnClickListener {
-            startActivity(toFavoriteActivity)
+            startActivity(
+                Intent(this, FavoriteActivity::class.java)
+            )
         }
     }
 }
