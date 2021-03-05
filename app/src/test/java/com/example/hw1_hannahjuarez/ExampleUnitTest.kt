@@ -1,4 +1,4 @@
-package com.example.HW1_HannahJuarez
+package com.example.hw1_hannahjuarez
 
 import org.junit.Test
 

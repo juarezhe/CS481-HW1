@@ -1,4 +1,4 @@
-package com.example.HW1_HannahJuarez
+package com.example.hw1_hannahjuarez
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.to_grade_activity_button).setOnClickListener {
             startActivity(
-                Intent(this, GradeActivity::class.java)
+                    Intent(this, GradeActivity::class.java)
             )
         }
         findViewById<Button>(R.id.to_favorite_activity_button).setOnClickListener {
             startActivity(
-                Intent(this, FavoriteActivity::class.java)
+                    Intent(this, FavoriteActivity::class.java)
             )
         }
     }
