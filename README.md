@@ -1,2 +1,3 @@
-# HW1_HannahJuarez
- CS 481 - Homework 1 project
+# HW1
+
+Homework set 1 for CS 481 at CSUSM
